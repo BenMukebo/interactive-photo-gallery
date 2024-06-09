@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Photo gallery</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/lightbox.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>Interactive Photo Gallery</h1>
+      <nav class="nav-menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+      <section class="gallery">
+        <div class="gallery-item">
+          <a href="./images/Image1.png" data-lightbox="models" data-title="Caption1">
+            <img src="./images/Image1.png" alt="Image 1" />
+            <div class="img-details">
+              <h3 class="name">Fennec Fox</h3>
+              <p class="location">India</p>
+            </div>
+          </a>
+        </div>
+        <div class="gallery-item">
+          <a href="./images/Image2.png" data-lightbox="models" data-title="Caption2">
+            <img src="./images/Image2.png" alt="Image 2" />
+            <div class="img-details">
+              <h3 class="name">Humpback Whale</h3>
+              <p class="location">South Africa</p>
+            </div>
+          </a>
+        </div>
+        <div class="gallery-item">
+          <a href="./images/Image3.png" data-lightbox="models" data-title="Caption3">
+            <img src="./images/Image3.png" alt="Image 3" />
+            <div class="img-details">
+              <h3 class="name">Common Brown Baboon</h3>
+              <p class="location">South Africa</p>
+            </div>
+          </a>
+        </div>
+        <div class="gallery-item">
+          <a href="./images/Image4.png" data-lightbox="models" data-title="Caption4">
+            <img src="./images/Image4.png" alt="Image 4" />
+            <div class="img-details">
+              <h3 class="name">Spotted Deer</h3>
+              <p class="location">Amazon</p>
+            </div>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <script src="./js/lightbox-plus-jquery.js"></script>
+  </body>
+</html>
