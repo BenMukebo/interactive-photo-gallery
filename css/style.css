@@ -14,7 +14,7 @@ body {
 
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 1rem;
   background-color: #333;
@@ -31,10 +31,11 @@ body {
   gap: 1rem;
 }
 
+.nav-menu ul a {
+  color: #fff;
+}
+
 .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 100%;
   min-height: 100vh;
   background-color: #f1f1f1;
@@ -100,6 +101,8 @@ body {
 
 @media (min-width: 768px) {
   .gallery {
+    max-width: calc(300px * 4 + 5rem);
+    margin-top: 2rem;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   }
 
